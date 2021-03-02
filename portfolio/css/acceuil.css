@@ -1,0 +1,57 @@
+/*--------acceuil-------------*/
+#acceuil{
+	margin-top:0;
+}
+#acceuil {
+	padding-top:15%;
+	margin-bottom: 15%;
+}
+
+#logo img{
+	width: 90px;
+	height: 90px;
+	vertical-align: middle;
+}
+
+#logo span{
+	vertical-align: middle;
+	margin:0;
+	font-size: 300%;
+}
+
+#logo{
+	text-align: center;
+}
+
+#infoPerso{
+	margin-top:7.5%;
+	text-align: center;
+}
+
+#infoPerso img{
+	width:287px;
+	height:215.5px;
+	border-radius:50%;
+	float:left;
+}
+
+#nomPrenom{
+	text-align: center;
+	font-size: 400%;
+	font-family: STXingkai;
+}
+
+#nomPrenom #nomFrancais{
+	margin-bottom:5%;
+}
+.text_taper{
+	text-align: left;
+	font-size:200%;
+	margin-top:5%;
+}
+
+@media only screen and (max-width: 1000px) {
+#infoPerso img{
+		float:none;
+	}
+}

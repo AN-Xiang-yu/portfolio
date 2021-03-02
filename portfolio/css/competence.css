@@ -1,0 +1,81 @@
+/*----------compétence-----------*/
+.progress-bar{
+	/* 进度条的槽 */
+	width:60%;
+	/* 设置进度条的高度 */
+	height: 20px;
+	/*进度条外层div的背景色，进度未达到的地方的颜色 */
+	background-color: #f9e1e3;
+	
+	border-radius: 3px;
+}
+.progress {
+	/* 进度部分 */
+	/* 利用继承父元素宽度的百分比控制进度 */
+	
+	height: 100%;
+	/* 内层背景色即进度达到的颜色 */
+	background-color: #e46a70;
+	border-radius: 3px;
+}
+
+.progress.chinois{
+	width: 100%;
+}
+.progress.francais{
+	width: 75%;
+}
+.progress.anglais{
+	width: 55%;
+}
+
+.competence p{
+	text-align: center;
+}
+
+.clearfix:after {
+
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.content ol li {
+		float: none;
+		width: 100%;
+		margin-bottom:5%;
+	}
+.content {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 80%;
+	margin-top:5%;
+}
+
+.content span{
+	display: block;
+	margin-bottom: 2%;
+	font-size: 150%;
+}
+
+.competence{
+	margin-bottom:2%;
+}
+
+#competences img, #competences span{
+	vertical-align: middle;
+}
+
+@media only screen and (max-width: 1000px) {
+	.competence{
+		float: left;
+		width: 50%;
+		text-align: center;
+		margin-bottom: 10%;
+	  }
+
+	h2{
+	  margin-bottom:10%;
+	}  
+  }
